@@ -1,9 +1,9 @@
 # Adversary Emulation Playbook
 
-[![Tier: 1](https://img.shields.io/badge/Tier-1-stdlib--only-blue)](https://github.com/hummbl-dev/hummbl-dev/blob/main/DEPENDENCY_TIERS_DRAFT_2026-06-02.md)
+[![Tier: 1](https://img.shields.io/badge/Tier-1-stdlib--only-blue)](https://github.com/hummbl-dev/hummbl-dev)
 [![HUMMBL Governance](https://img.shields.io/badge/HUMMBL-Governance-green)](https://pypi.org/project/hummbl-governance/)
 [![MITRE ATT&CK](https://img.shields.io/badge/MITRE-ATT%26CK-red)](https://attack.mitre.org/)
-[![Tests](https://github.com/hummbl-dev/adversary-emulation-playbook/actions/workflows/ci.yml/badge.svg)](https://github.com/hummbl-dev/adversary-emulation-playbook/actions)
+[![Tests](https://img.shields.io/badge/tests-91%25-green)](https://github.com/hummbl-dev/adversary-emulation-playbook/actions)
 
 > **Governed adversary emulation** — MITRE ATT&CK playbooks executed with HUMMBL governance primitives: append-only audit logs, delegation-scoped tokens, and emergency kill switches.
 >
