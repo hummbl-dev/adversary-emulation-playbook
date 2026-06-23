@@ -1,0 +1,39 @@
+# hummbl.repo.yaml — adversary-emulation-playbook
+schema: "hummbl-repo-manifest@0.1"
+
+repo:
+  full_name: "hummbl-dev/adversary-emulation-playbook"
+  name: "adversary-emulation-playbook"
+  visibility: "public"
+  default_branch: "master"
+  status: "archived"
+
+purpose:
+  type: "archived"
+  summary: "Archived repository."
+  source_of_record: "git"
+
+authority:
+  steward: "HUMMBL Research Institute"
+  approving_human: "Reuben Bowlby"
+
+governance:
+  krineia_required: true
+  receipts_dir: "_receipts/"
+  model_provider_neutral: true
+
+validation:
+  command: "echo archived"
+  required_before_merge: false
+  required_before_release: false
+
+krineia:
+  manifest: "KRINEIA.md"
+  chains:
+    primary:
+      chain_id: "adversary-emulation-playbook-primary"
+      storage: "_receipts/krineia/primary.jsonl"
+      genesis_policy: "repo_bootstrap"
+      hash_algorithm: "sha256"
+  operators_allowed: ["append", "project", "cut"]
+  operators_forbidden: ["update", "delete", "rewrite", "summarize_and_replace", "score_and_train"]
